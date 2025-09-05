@@ -38,7 +38,9 @@ int main()
     printf("%d\n", !(2 < 2));
 
     printf("sizeof(int) = %d , sizeof(short) = %d, sizeof(char) = %d", sizeof(int), sizeof(short), sizeof(char));
-
+	
+     //  Печать кавычки, слеша и процента  \',  \""  \\, %%
+     //   \t Табуляция, \n Перевод строки,  \r Звуковой сигнал
     int x = 12;
     short y = 12;
     char z = 34;
